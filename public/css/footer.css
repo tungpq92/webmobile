@@ -1,0 +1,60 @@
+.footer{
+	background: #f2f2f2;
+	border-top: 1px solid #cacaca;
+	margin-top: 30px;
+}
+#plcOne {
+	margin-top: 50px;
+}
+#plcOne p{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#plcOne ul{
+	float: left;
+	list-style: none;
+}
+#plcOne ul li a{
+	text-decoration: none;
+	color: #333333;
+	padding: 0 5px 5px 0;
+}
+#plcOne ul li a:hover{
+	color:#288ad6;
+}
+.danhmuc li{
+	display: inline-block;
+}
+.danhmuc span{
+	font-weight: bold;
+}
+
+.btnFooter h4{
+	color: #676767;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+.btnFooter ul{
+	float: left;
+}
+.btnFooter ul li{
+	display: inline-block;
+}
+.btn-fa li a{
+	display: inline-block;
+	font-size: 1em;
+	color: gray;
+	height: 2em;
+	width: 2em;
+	text-align: center;
+	transition-duration: .5s;
+	line-height: 2em;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	border-radius: 50%;
+	text-decoration: none;
+}
+.btn-fa a:hover { color: #fff; }
+.fa-facebook:hover { background: #3B5998; }
+.fa-google:hover { background: #dd4b39; }
+.fa-youtube:hover { background: #bb0000;}

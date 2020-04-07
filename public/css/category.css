@@ -1,0 +1,280 @@
+.slider a
+{
+    text-decoration: none;
+}
+.banner-product
+{
+    margin-bottom: 3px;
+    overflow: hidden;
+}
+.banner-product img{
+    max-width: 100%;
+}
+#product-all .list-menu
+{
+    margin-top: 0px;
+}
+/* LIST CATEGOTY */
+.list-menu
+{
+    min-height: 10px;
+}
+.widget
+{
+    width: 100%;
+    min-height: 250px;
+    border: 1px solid #dcdcdc;
+    margin-top: 25px;
+}
+.widgets-links p, .widget p
+{
+    background: #0f9ed8;
+    height: 40px;
+    margin: 0;
+    color: #fff;
+    font-size: 1em;
+    line-height: 40px;
+    padding-left: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.list-menu ul
+{
+    margin-bottom: 0;
+    position: relative;
+}
+
+.list-menu ul.main-ul li
+{
+    list-style: none;
+}
+
+.list-menu ul.main-ul li:last-child{border-bottom: none;}
+
+.list-menu i{
+    line-height: 32px;
+    margin-left: 0 !important;
+}
+
+.list-menu li a
+{
+    color: #685e52;
+    line-height: 34px;
+    padding: 0px 11px 0px 15px;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.list-menu li a:hover
+{
+    color: #0f9ed8;
+    padding-left: 15px;
+    border: 1px solid;
+}
+
+.list-menu ul.sub
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 100%;
+    height: 120px;
+    z-index: 999;
+    background: #fff;
+    border: 1px solid #e8e6e2;
+    display: none;
+}
+
+.list-menu ul.sub li
+{
+    width: 100%;
+    float: left;
+    list-style: none;
+    border: none;
+}
+
+.main-ul li:hover .sub
+{
+    display: block;
+}
+.panel-left-body
+{
+    width: 100%;
+    height: 350px;
+    overflow: auto;
+}
+.sidebar_menu
+{
+    padding: 5px 0px;
+    border-top: 0;
+}
+.promotion:first-child
+{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+.promotion
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.promotion-image
+{
+    height: auto;
+    float: left;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+.promotion-image img
+{
+    width: 60px;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.promotion-info
+{
+    position: relative;
+    overflow: hidden;
+}
+.promotion-title, .promotion-price
+{
+    padding-left: 5px;
+}
+.promotion-title {
+    color: #464646;
+    font-size: 1em;
+}
+.promotiont .promotion-title a
+{
+    color: #333;
+}
+.promotion .promotion-title a
+{
+    margin: 0;
+    font-size: 14px;
+    color: #0f9ed8;
+    font-weight: 500;
+}
+.promotion-title a
+{
+    font-weight: 300;
+}
+.promotion .promotion-price
+{
+    margin: 3px -10px 0 0;
+}
+.promotion .promotion-price li
+{
+    font-size: 0.8em;
+    margin: 0 10px 0 0;
+}
+
+.promotion-price li
+{
+    float: left;
+    line-height: 14px;
+    color: #999;
+    list-style: none;
+    margin-top: 9px;
+    font-size: 14px;
+    font-style: italic;
+}
+.promotion-price li ins
+{
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+}
+.promotion-price li del
+{
+    color: #888;
+    padding-left: 15px;
+}
+
+.product-wrap
+{
+    overflow: hidden;
+    min-height: 1px;
+}
+.collection-title
+{
+    background: #fff;
+    border: 1px solid #e8e6e2;
+    position: relative;
+    z-index: 1;
+    padding: 0 15px;
+    min-height: 550px;
+    overflow: hidden;
+}
+.collection-title h1
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #252525;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 14px 0px;
+    border-bottom: 3px solid #0f9ed8;
+    margin-bottom: -2px;
+    position: relative;
+    margin: 0px;
+}
+
+#sort-by
+{
+    float: right;
+    padding: 11px 15px;
+}
+#sort-by label
+{
+    font-size: 14px;
+    color: #464646;
+    font-family: Arial;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+#sort-by .form-inline
+{
+    display: inline-block;
+}
+#sort-by .form-inline .sort-by-script
+{
+    border: 1px solid #e8e6e2;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #959595;
+    padding: 5px;
+    font-family: Arial;
+}
+.product-lt
+{
+    background: #fff;
+    border: solid 1px #eee;
+    position: relative;
+    height: 275px;
+    width: 200px;
+}
+.collection .category-products
+{
+    border-top: none;
+}
+.products-grid{
+    border-top: 1px solid #e8e6e2;
+    min-height: 550px;
+    border-left: 1px solid #e8e6e2;
+}
+.collection .category-products .pagination > .active > a
+{
+    background: #0f9ed8 !important;
+    border-color: #0f9ed8 !important;
+}
+.collection .category-products li a{
+    border-radius: 0px;
+}

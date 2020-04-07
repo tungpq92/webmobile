@@ -1,0 +1,251 @@
+.products-wrap
+{
+    min-height: 50px;
+    overflow: hidden;
+}
+.breadcrumbs
+{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #393d3f;
+}
+ul
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs li a
+{
+    color: #e11b1e;
+    text-decoration: none;
+}
+.breadcrumbs .fa 
+{
+    color: #ccc;
+    display: inline-block;
+    margin: 0 5px;
+}
+.picture
+{
+    border: 1px solid #D1CFCF;
+    max-height: 564px;
+}
+.picture img
+{
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    padding: 10px 0 10px 0;
+}
+.price_sale h1
+{
+    font-family: Arial;
+    color: #252525;
+    font-size: 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    font-weight:700;
+}
+.product-view-price {
+    font-size: 15px;
+    color: #252525;
+    display: inline-block;
+    margin-top: 10px;
+}
+.pull-left {
+    float: left !important;
+}
+.price {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #ed1c24;
+}
+.pull-right .price
+{
+    font-size: 14px;
+    color: #898989;
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    font-weight: 100;
+    /*line-height: 32px;*/
+}
+.pull-right .sale-flag
+{
+    font-size: 12px;
+    color: #fff;
+    font-family: Arial;
+    text-decoration: none;
+    background: #46a748;
+    margin-left: 5px;
+    padding: 2px 3px;
+    vertical-align: top;
+}
+.product-promo
+{
+    margin-bottom: 15px;
+    border: 1px solid #d7d7d7;
+}
+.km-title
+{
+    padding: 4px 10px;
+    font-weight: bold;
+    color: #fff;
+    background: #0f9ed8;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+
+.promo > ul
+{
+    padding-bottom: 5px;
+}
+.promo > ul > li
+{
+    margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+    font-size: 14px;
+    color: #000;
+}
+.promo > ul > li > i
+{
+    color: #090;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.acction-qty
+{
+    font-size:0;
+    margin-bottom: 10px;
+    margin-top: 0!important;
+}
+
+.acction-qty button
+{
+    background: #666;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+
+    margin-top: 10px;
+}
+.acction-qty button > a{
+    color: white;
+    text-decoration: none;
+}
+.acction-qty button > a > i
+{
+    padding: 6px 7px;
+}
+.acction-qty button:hover
+{
+    background: -webkit-linear-gradient(top, #fd6e1d, #f59000);
+}
+
+.info_product {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: block;
+}
+.info_product h2
+{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info
+{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 0 5px;
+}
+.info li
+{
+    list-style: none;
+    display: table;
+    border-top: 1px solid #eee;
+    width: 100%;
+    padding: 10px 0;
+}
+.info li p
+{
+    /* clear: both; */
+    float: left;
+    margin: 5px 0;
+    width: 40%;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+.info li div
+{
+    width: 60%;
+    float: left;
+    margin: 5px 0;
+    color: #333;
+    font-style: italic;
+}
+.info li span
+{
+    float: left;
+    margin: 5px 0;
+    width: 40%;
+    color: #666;
+}
+
+.flex-control-thumbs
+{
+    display: block;
+    opacity: .7;
+    cursor: pointer;
+}
+.flex-control-thumbs li
+{
+    display: inline-block;
+    border:1px solid #D1CFCF;
+    width: 110px;
+    height: 120px;
+    margin-top: 5px;
+}
+.flex-control-thumbs img
+{
+    width: 100px;
+    height: 120px;
+    padding: 5px 0 5px 0;
+}
+
+.product-comment
+{
+    margin-top: 50px;
+}
+.product-desc
+{
+    clear: both;
+}
+.product-desc h3:first-child
+{
+    text-transform: uppercase;
+    color: #0f9ed8;
+    font-weight: 500;
+    border-bottom: 3px solid #0f9ed8;
+    padding-bottom: 5px;
+}
+
