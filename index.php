@@ -9,7 +9,7 @@
 	$controller = ucfirst($controller)."Controller";
 	$action = isset($_GET["action"])?$_GET["action"]:"index";
 	$controllerPath = "controllers/$controller.php";
-
+//them dong nay
 	if(file_exists($controllerPath))
 	{
 		include $controllerPath;
